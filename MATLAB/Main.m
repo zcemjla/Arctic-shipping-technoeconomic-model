@@ -2778,22 +2778,22 @@ t = tiledlayout(5,1);
             xlabel('USD Tonne^{-1}')
        
     
-         saveas(Figure1,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ1\TC_FC_difference.png');
-         saveas(Figure2,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ1\Container_2035_Emission_difference.png');
-         saveas(Figure3,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ1\TC_LSHFOFC_difference.png');
-         saveas(Figure4,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP_TC_Feasibility_NSR_YR.png');
-         saveas(Figure5,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP_TC_Feasibility_NSR_CMB.png');
-         saveas(Figure6,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP_TC_Fuel_Feasibility_NSR.png');
-         saveas(Figure7,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP245_Container_Cost_differential.png');
-         saveas(Figure8,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP585_Bulker_Cost_differential.png');
-         saveas(Figure9,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP_Arctic_route_YR_feasibility.png');
-         saveas(Figure10,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP_Arctic_route_CMB_feasibility.png');
-         saveas(Figure11,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\OW_Container_NSR_feasibility.png');
-         saveas(Figure12,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\OW_Container_Cost_differential.png');
-         saveas(Figure13,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\OW_Container_Arctic_route_feasibility.png');
-         saveas(Figure14,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\SSP585_Wet_Bulker_Cost_differential.png');
-         saveas(Figure15,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\OW_Bulker_NSR_feasibility.png');
-         saveas(Figure16,'C:\Users\lambe\OneDrive - University College London\Research\2nd year PhD\Modelling\Arctic model\Modelv12\Outputs\RQ2\OW_Bulker_Cost_differential.png');
+         saveas(Figure1,'Outputs\RQ1\TC_FC_difference.png');
+         saveas(Figure2,'Outputs\RQ1\Container_2035_Emission_difference.png');
+         saveas(Figure3,'Outputs\RQ1\TC_LSHFOFC_difference.png');
+         saveas(Figure4,'Outputs\RQ2\SSP_TC_Feasibility_NSR_YR.png');
+         saveas(Figure5,'Outputs\RQ2\SSP_TC_Feasibility_NSR_CMB.png');
+         saveas(Figure6,'Outputs\RQ2\SSP_TC_Fuel_Feasibility_NSR.png');
+         saveas(Figure7,'Outputs\RQ2\SSP245_Container_Cost_differential.png');
+         saveas(Figure8,'Outputs\RQ2\SSP585_Bulker_Cost_differential.png');
+         saveas(Figure9,'Outputs\RQ2\SSP_Arctic_route_YR_feasibility.png');
+         saveas(Figure10,'Outputs\RQ2\SSP_Arctic_route_CMB_feasibility.png');
+         saveas(Figure11,'Outputs\RQ2\OW_Container_NSR_feasibility.png');
+         saveas(Figure12,'Outputs\RQ2\OW_Container_Cost_differential.png');
+         saveas(Figure13,'Outputs\RQ2\OW_Container_Arctic_route_feasibility.png');
+         saveas(Figure14,'Outputs\RQ2\SSP585_Wet_Bulker_Cost_differential.png');
+         saveas(Figure15,'Outputs\RQ2\OW_Bulker_NSR_feasibility.png');
+         saveas(Figure16,'Outputs\RQ2\OW_Bulker_Cost_differential.png');
          
          clear Figure1 Figure2 Figure3 Figure4 Figure5 Figure6 Figure7 Figure8 Figure9 Figure10 Figure11 Figure12 Figure13 Figure14 Figure15 Figure16
      
