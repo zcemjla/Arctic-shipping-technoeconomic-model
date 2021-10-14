@@ -38,18 +38,18 @@ are relevant to assessing the overall feasibility of Arctic shipping are stored 
 As the Python model is still a work in progress, it is not functional. However the Arctic ice data processor module works 
 correctly and can be tested by inserting a breakpoint in the Main script after this function is called and returns its outputs. 
 
-###MATLAB
-*Download repository 
-*Open the Main.m file using MATLAB
-*Press 'Run' once to process the reference vessel performance metrics
-*Press 'Run' again to acquire illustrations and to save them to their respective output directories
+### MATLAB
+* Download repository 
+* Open the Main.m file using MATLAB
+* Press 'Run' once to process the reference vessel performance metrics
+* Press 'Run' again to acquire illustrations and to save them to their respective output directories
 
-###Python (Spyder 5.0.5)
-*Download repository
-*Open the Main.py file 
-*Insert a breakpoint at line 324 the line before the 'PP.Prepocessor' function is called
-*Click 'Debug file' 
-*Click 'Continue execution to breakpoint' to run to the breakpoint
+### Python (Spyder 5.0.5)
+* Download repository
+* Open the Main.py file 
+* Insert a breakpoint at line 324 the line before the 'PP.Prepocessor' function is called
+* Click 'Debug file' 
+* Click 'Continue execution to breakpoint' to run to the breakpoint
 
 [^1]: Lambert, J. et al. (2021) ‘A techno-economic environmental cost model for Arctic shipping’, Transportation Research Part A: Policy and Practice, 151, pp. 28–51. doi: 10.1016/j.tra.2021.06.022.
 
