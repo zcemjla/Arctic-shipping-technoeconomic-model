@@ -41,7 +41,7 @@ The technical specifications are then obtained from the IMO 4th GHG study and th
 * Navigate to the local 'Arctic-shipping-technoeconomic-model-main\Python...' directory
 * Open the Main.py file 
 * Click 'Run' and all the parameters will be processed
-* Statements recording the number of months a ship can navigate through the northern sea route and north pole are returned in the kernel
+* Statements recording the number of months a ship can navigate through the northern sea route and north pole are returned in the kernel, for a 4 degree global warming case
 
 
 [^1]: Lambert, J. et al. (2021) ‘A techno-economic environmental cost model for Arctic shipping’, Transportation Research Part A: Policy and Practice, 151, pp. 28–51. doi: 10.1016/j.tra.2021.06.022.
