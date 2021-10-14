@@ -6,10 +6,13 @@
 ## Repository description
 This repository contains two versions of the same model, one version is written in MATLAB and the other
 is written in Python script. The MATLAB version is a complete version of the latest iteration for a techno-economic
-model that I developed to to assess the economic competitiveness of Arctic shipping. I am currently in the process
+model that I developed to assess the economic competitiveness of Arctic shipping. I am currently in the process
 of migrating the script to Python, which largely entails translating the syntax into the Python language. The Python 
-version is still a work in progress, with only the 'Arctic ice data processor' and 'Main' scripts  functional. The structure
-under both versions is modular and this technique was deployed over a monolithic approach to ensure consistency between
+version is still a work in progress, with only the 'Arctic ice data processor' and 'Main' scripts  functional. Consequently, 
+the key output in the Python version is the number of months a ship can transit through the Arctic based off its ice class, this is 
+assuming a BAU 4 degree warming scenario. The MATLAB model produces fully operational metrics that are being reported in my thesis. 
+
+The structure under both versions is modular and this technique was deployed over a monolithic approach to ensure consistency between
 different versions of the model. This approach facilitated the validation of this model, through benchmarking each function
 against an empirical dataset and it also ensures that it is easier improve the model in future iterations, 
 the modular technique can be seen with both MATLAB and Python versions. 
@@ -47,9 +50,9 @@ correctly and can be tested by inserting a breakpoint in the Main script after t
 ### Python (Spyder 5.0.5)
 * Download repository
 * Open the Main.py file 
-* Insert a breakpoint at line 324 the line before the 'PP.Prepocessor' function is called
-* Click 'Debug file' 
-* Click 'Continue execution to breakpoint' to run to the breakpoint
+* Click 'Run' and all the parameters will be processed
+* Statements recording the number of months a ship can navigate through the northern sea route and north pole are returned in the kernel
+
 
 [^1]: Lambert, J. et al. (2021) ‘A techno-economic environmental cost model for Arctic shipping’, Transportation Research Part A: Policy and Practice, 151, pp. 28–51. doi: 10.1016/j.tra.2021.06.022.
 
