@@ -355,17 +355,17 @@ if g_input_assumptions['SSP119'].item() == 0:
                                                                                                         g_input_assumptions)
 
     #Return the number of months a ship could navigate through the Arctic, depending on its ice class for
-    
+    print("OUTPUTS")
     print("The summer period that a moderate ice class ship can navigate through the northern sea route in 2020 is", int(sum(Logic_mat_Route1_IceStrength_SCE2_t0)), "months long.")
     print("The summer period that a moderate ice class ship can navigate through the northern sea route in 2035 is", int(sum(Logic_mat_Route1_IceStrength_SCE2_tm)), "months long.")
     print("The summer period that a moderate ice class ship can navigate through the northern sea route in 2050 is", int(sum(Logic_mat_Route1_IceStrength_SCE2_tf)), "months long.")
           
 
-    print("The summer period that an OW ship can navigate through the northern sea route in 2020 is", int(sum(Logic_mat_Route1_OW_SCE2_t0)), "months long.")
+    print("\nThe summer period that an OW ship can navigate through the northern sea route in 2020 is", int(sum(Logic_mat_Route1_OW_SCE2_t0)), "months long.")
     print("The summer period that an OW ship can navigate through the northern sea route in 2035 is", int(sum(Logic_mat_Route1_OW_SCE2_tm)), "months long.")
     print("The summer period that an OW ship can navigate through the northern sea route in 2050 is", int(sum(Logic_mat_Route1_OW_SCE2_tf)), "months long.")
 
-    print("Under a fossil centric, 4 degree warming scenario, ships could theoretically navigate through the North Pole.")
+    print("\nUnder a fossil centric, 4 degree warming scenario, ships could theoretically navigate through the North Pole.")
     print("The summer period that a moderate ice class ship can navigate through the North Pole in 2050 is", int(sum(Logic_mat_Route3_IceStrength_SCE2_tf)), "months long.")
 
                                                                                        
