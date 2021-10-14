@@ -16,7 +16,7 @@ different versions of the model. This approach facilitated the validation of thi
 against an empirical dataset and it also ensures that it is easier improve the model in future iterations, 
 the modular technique can be seen with both MATLAB and Python versions. 
 
-## High level description
+## High level model description
 The model uses defined Arctic routes and predetermined future Arctic ice projections to ascertain the operating performance of both
 open water and ice class ships. The operating performance of the ship is an umbrella term which is inclusive of the ship's energy consumption,
 fuel consumption, transport work and emissions. From the operating performance, the commercial performance can be deduced and this pertains to the reference
