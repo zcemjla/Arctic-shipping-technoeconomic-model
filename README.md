@@ -20,11 +20,10 @@ the modular technique can be seen with both MATLAB and Python versions.
 The model uses defined Arctic routes and predetermined future Arctic ice projections to ascertain the operating performance of both
 open water and ice class ships. The operating performance of the ship is an umbrella term which is inclusive of the ship's energy consumption,
 fuel consumption, transport work and emissions. From the operating performance, the commercial performance can be deduced and this pertains to the reference
-ship's capital, operating and voyage costs. What the model also does however is include the cost of emissions using the theory of externalities
+ship's capital, operating and voyage costs. What the model also does is include the cost of emissions using the theory of externalities
 and marginal damage cost values, it then treats these emission costs as an additional cost which is not different from the financial expenses [^1]. This
 is done for three Arctic routes and the Suez route. The unit cost per tonne is calculated for each reference vessel and normalised against the Suez value,
-therefore values less than one mean the Arctic route is feasible and vice versa for greater than one. The Python version aims to take the natural logarithm
-of the normalised metric, with values less than zero meaning the Arctic route is feasible and vice versa for greater than one. 
+therefore values less than one mean the Arctic route is feasible and vice versa for greater than one. 
 
 The technical specifications are then obtained from the IMO 4th GHG study and the Whole Ship Model (WSM), which was built using Python [^2] [^3]. The WSM script is not included in this repository, since it is the intellectual property of the UCL shipping group and its consulting arm UMAS. Nonetheless, WSM was used to obtain the design performance specifications for a range of bulkers, container ships and wet bulkers. 
 
