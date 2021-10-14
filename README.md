@@ -38,17 +38,20 @@ The model will save the outputs to folders 'RQ1' and 'RQ2'. The outputs in RQ1 r
 including emission costs has on the feasibility of Arctic shipping and under the RQ2 directory, the outputs which
 are relevant to assessing the overall feasibility of Arctic shipping are stored there. 
 
-As the Python model is still a work in progress, it is not functional. However the Arctic ice data processor module works 
-correctly and can be tested by inserting a breakpoint in the Main script after this function is called and returns its outputs. 
+To run the Python version, open the 'Main.py' file and simply press 'Run'. As it is still a wrok in progress,
+the key output is the number of months an ice class and open water ship can transit through the Arctic in future years,
+based off a 4 degree warming scenario. 
 
 ### MATLAB
 * Download repository 
+* Navigate to the local 'Arctic-shipping-technoeconomic-model-main\MATLAB...' directory
 * Open the Main.m file using MATLAB
 * Press 'Run' once to process the reference vessel performance metrics
 * Press 'Run' again to acquire illustrations and to save them to their respective output directories
 
 ### Python (Spyder 5.0.5)
 * Download repository
+* Navigate to the local 'Arctic-shipping-technoeconomic-model-main\Python...' directory
 * Open the Main.py file 
 * Click 'Run' and all the parameters will be processed
 * Statements recording the number of months a ship can navigate through the northern sea route and north pole are returned in the kernel
