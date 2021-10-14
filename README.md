@@ -28,16 +28,6 @@ therefore values less than one mean the Arctic route is feasible and vice versa 
 The technical specifications are then obtained from the IMO 4th GHG study and the Whole Ship Model (WSM), which was built using Python [^2] [^3]. The WSM script is not included in this repository, since it is the intellectual property of the UCL shipping group and its consulting arm UMAS. Nonetheless, WSM was used to obtain the design performance specifications for a range of bulkers, container ships and wet bulkers. 
 
 ## Setup
-To run the MATLAB model, download the MATLAB repository and open the 'Main' script. Simply click 'Run' on the taskbar to obtain the model's peformance metrics, then
-click run again to build illustrations using the model's outputs.
-
-The model will save the outputs to folders 'RQ1' and 'RQ2'. The outputs in RQ1 refer to the difference that 
-including emission costs has on the feasibility of Arctic shipping and under the RQ2 directory, the outputs which
-are relevant to assessing the overall feasibility of Arctic shipping are stored there. 
-
-To run the Python version, open the 'Main.py' file and simply press 'Run'. As it is still a wrok in progress,
-the key output is the number of months an ice class and open water ship can transit through the Arctic in future years,
-based off a 4 degree warming scenario. 
 
 ### MATLAB
 * Download repository 
